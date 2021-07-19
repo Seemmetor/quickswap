@@ -1,4 +1,5 @@
 scoreboard objectives add qs.use_orb minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add qs.drop_orb minecraft.dropped:minecraft.carrot_on_a_stick
 
 scoreboard objectives add qs.temp dummy
 
