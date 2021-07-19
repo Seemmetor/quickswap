@@ -2,7 +2,7 @@
     "parent": "quickswap:recipes/root",
     "rewards": {
         "function": "quickswap:reset_recipe",
-        "loot": ["quickswap:items/quickswap_orb"]
+        "loot": [ "quickswap:items/quickswap_orb" ]
     },
     "criteria": {
         "has_the_recipe": {
