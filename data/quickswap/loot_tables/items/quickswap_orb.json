@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Quickswap Orb",
+                                "color":"light_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Right click with this item in your hand to store chest ",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "armour in it. Right click again to swap your current ",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "chest armour with the stored one.",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:120001, Quickswap: {Orb:1b, StoredItems: {StoredChestplate: {}}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
