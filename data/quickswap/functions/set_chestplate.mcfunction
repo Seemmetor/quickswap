@@ -1,4 +1,3 @@
-# Store new chest armour in orb
 item modify entity @s weapon.mainhand quickswap:store_new_chestplate
 item modify entity @s weapon.mainhand quickswap:fix_slot
 

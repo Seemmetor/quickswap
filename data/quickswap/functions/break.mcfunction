@@ -1,4 +1,3 @@
-# Replace orb with last stored item
 setblock ~ 0 ~ minecraft:yellow_shulker_box{Items:[{Slot:0b, id:"minecraft:stone", Count:1b}]}
 
 data modify block ~ 0 ~ Items[0] set from entity @s SelectedItem.tag.Quickswap.StoredItems.StoredChestplate
