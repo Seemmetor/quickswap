@@ -7,7 +7,7 @@
     "ops": [
         {
             "source": "{}",
-            "target": "Quickswap.StoredItems.StoredChestplate",
+            "target": "Quickswap.StoredChestplate",
             "op": "replace"
         }
     ]

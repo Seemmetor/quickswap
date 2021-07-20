@@ -3,6 +3,5 @@ scoreboard objectives add qs.drop_orb minecraft.dropped:minecraft.carrot_on_a_st
 
 scoreboard objectives add qs.temp dummy
 
-# Settings
 scoreboard objectives add qs.options dummy
 scoreboard players set #unbreakable qs.options 0

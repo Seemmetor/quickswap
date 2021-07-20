@@ -1,4 +1,4 @@
 {
     "function": "minecraft:set_nbt",
-    "tag": "{Quickswap: {StoredItems: {StoredChestplate: {Slot: 0b}}}}"
+    "tag": "{Quickswap: {StoredChestplate: {Slot: 0b}}}"
 }

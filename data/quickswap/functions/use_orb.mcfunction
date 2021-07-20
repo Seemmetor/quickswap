@@ -1,10 +1,7 @@
-# Swap if orb has stored chest armour
-execute if entity @s[scores={qs.use_orb=1..}] if data entity @s SelectedItem.tag.Quickswap.StoredItems.StoredChestplate.id run function quickswap:swap
+execute if entity @s[scores={qs.use_orb=1..}] if data entity @s SelectedItem.tag.Quickswap.StoredChestplate.id run function quickswap:quickswap_orb/swap
 
-# Store chest armour is orb is empty
-execute if entity @s[scores={qs.use_orb=1..}, nbt={Inventory:[{Slot:102b}]}] unless data entity @s SelectedItem.tag.Quickswap.StoredItems.StoredChestplate.id run function quickswap:set_chestplate
+execute if entity @s[scores={qs.use_orb=1..}, nbt={Inventory:[{Slot:102b}]}] unless data entity @s SelectedItem.tag.Quickswap.StoredChestplate.id run function quickswap:quickswap_orb/set_chestplate
 
-# Update sprite
-execute if data entity @s SelectedItem.tag.Quickswap run function quickswap:toggle_active
+execute if data entity @s SelectedItem.tag.Quickswap run function quickswap:quickswap_orb/toggle_active
 
 scoreboard players reset @s qs.use_orb
