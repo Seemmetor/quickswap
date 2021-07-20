@@ -48,7 +48,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:120001, Quickswap: {Orb:1b, StoredItems: {StoredChestplate: {}}}}"
+                            "tag": "{CustomModelData:120001, Quickswap: {Orb:1b, StoredChestplate: {}}}"
                         }
                     ]
                 }

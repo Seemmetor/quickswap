@@ -4,7 +4,7 @@
         "description": "Adds an orb that lets you easily swap between chest armour.",
         "icon": {
             "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:120002}"
+            "nbt": "{CustomModelData:120002, Enchantments:[{}]}"
         },
         "announce_to_chat": false,
         "show_toast": false

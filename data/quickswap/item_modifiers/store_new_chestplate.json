@@ -4,7 +4,7 @@
     "ops": [
         {
             "source": "Inventory[{Slot:102b}]",
-            "target": "Quickswap.StoredItems.StoredChestplate",
+            "target": "Quickswap.StoredChestplate",
             "op": "merge"
         }
     ]

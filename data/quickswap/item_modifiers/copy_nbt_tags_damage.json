@@ -6,9 +6,9 @@
     },
     "ops": [
         {
-            "source": "SelectedItem.tag",
-            "target": "{}",
-            "op": "merge"
+            "source": "Damage",
+            "target": "Damage",
+            "op": "replace"
         }
     ]
 }
