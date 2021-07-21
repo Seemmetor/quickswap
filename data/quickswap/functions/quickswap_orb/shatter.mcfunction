@@ -2,6 +2,6 @@ execute if entity @s[nbt={Item: {tag: {Quickswap: {StoredChestplate: {id: "minec
 
 execute if entity @s[nbt={Item: {tag: {Quickswap: {StoredChestplate: {id: "minecraft:netherite_chestplate"}}}}}] run data modify entity @e[type=item, tag=quickswap.orb_stored_item, limit=1] Item set from entity @s Item.tag.Quickswap.StoredChestplate
 
-kill @e[type=item, tag=quickswap.dropped_orb]
+kill @s
 
 playsound minecraft:block.glass.break ambient @a ~ ~ ~
