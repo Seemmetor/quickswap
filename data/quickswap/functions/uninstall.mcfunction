@@ -1,7 +1,6 @@
 scoreboard objectives remove qs.use_orb
 scoreboard objectives remove qs.temp
 scoreboard objectives remove qs.settings
-scoreboard objectives remove qs.drop_orb
 
 data remove storage quickswap:damage
 
