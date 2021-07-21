@@ -1,1 +1,0 @@
-execute unless entity @s[nbt={Fire: -1s}] at @s run function quickswap:quickswap_orb/shatter
